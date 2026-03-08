@@ -1,0 +1,20 @@
+Package: rbutterflyexplorers
+Type: Package
+Title: Access Butterfly Observations from Butterfly Explorers
+Version: 0.1.0
+Author: Sajan K.C. [aut, cre], Anisha Sapkota [aut]
+Maintainer: Sajan K.C. <sajan@butterflyexplorers.com>
+Description: Provides tools to fetch, filter, and analyze butterfly observation
+    data from Butterfly Explorers (www.butterflyexplorers.com) in Darwin Core format.
+License: CC BY-NC 4.0
+Encoding: UTF-8
+URL: https://www.butterflyexplorers.com
+Imports:
+    httr2,
+    rvest,
+    dplyr,
+    tibble,
+    stringr,
+    lubridate,
+    sf,
+    cli
